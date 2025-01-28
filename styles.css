@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('wp4299753-triumph-tiger-1200-wallpapers (1).jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background:linear-gradient(135deg, #153677,#4e085f);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px 50px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4e085f;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.edit-btn, .delete-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    color: #007bff;
+}
